@@ -1,0 +1,27 @@
+/************************RULES ****************************/
+body{
+  margin: 0;
+}
+h1{
+  margin-top: 0;
+}
+/*******************CLASSES *************************/
+.mainBackground{
+  background-color: #F8F3EB;
+}
+.redBackground{
+  background-color: red;
+
+  width: 300px;
+  height: 300px;
+}
+.blueBackground{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+}
+.underline{
+  font-style: italic;
+}
+
+/*******************ID ******************************/

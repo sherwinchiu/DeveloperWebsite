@@ -10,11 +10,6 @@ h1{
     text-align: center;
     margin: auto auto;
 }
-body, h2, h3, h4, h5, h6{
-    
- 
-   
-}
 /*******************CLASSES *************************/
 .nav-bar-button{
 	padding: 10px 20px;
@@ -42,24 +37,31 @@ body, h2, h3, h4, h5, h6{
 .signature{
     float: right;
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 /*******************ID ******************************/
 #nav-bar{
+    position: fixed;
+    top: 0;
 	width: 100%;
     overflow: hidden;
+    background-color: transparent;
 }
 #home-background{
     height: 1600px;
-
 }
 #about-background{
-    
+    height: 1000px;
 }
 #projects-background{
-
+    height: 1000px;
 }
 #contactme-background{
-
+    height: 1000px;
 }
 #bottom-bar{
-
+    height: 1000px;
 }

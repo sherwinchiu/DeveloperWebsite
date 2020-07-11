@@ -4,13 +4,6 @@ body{
   text-align: center;
   font-family: Georgia, Times, sans-serif;
 }
-h1{
-    width: 10%;
-    padding-top: 15%;
-    text-align: center;
-    margin: auto auto;
-    display: inline-block;
-}
 /*******************CLASSES *************************/
 .nav-bar-button{
 	padding: 10px 20px;
@@ -25,11 +18,20 @@ h1{
 } 
 .nav-bar-button:hover{
 	background-color: transparent;
-    color: rgb(41, 41, 41);
+    color: rgb(101, 81, 71);
 }
 .nav-bar-signature{
 	float: right;
 	border: none;
+}
+.home-text{
+
+    text-align: start;
+    width: 10%;
+    padding-top: 15%;
+    text-align: center;
+    margin: auto 60% auto auto;
+    display: inline-block;
 }
 .underline{
     font-style: italic;
@@ -62,5 +64,5 @@ h1{
     height: 1000px;
 }
 #bottom-bar{
-    height: 1000px;
+    height: 150px;
 }

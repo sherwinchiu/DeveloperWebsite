@@ -1,0 +1,10 @@
+How to use ngrok 
+1. Sign up for a ngrok acount on https://dashboard.ngrok.com/signup
+2. Run ngrok.exe
+3. Type this command: ngrok authtoken <YOUR_AUTH_TOKEN>
+4. Then can either make HTTP or TCP connections using these commands:
+
+ngrok tcp <YOUR_PORT>
+ngrok http <YOUR_PORT>
+
+5. Enjoy a live server

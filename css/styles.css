@@ -24,12 +24,9 @@ body{
 	border: none;
 }
 .home-text{
-
-    text-align: start;
     width: 10%;
     padding-top: 15%;
     text-align: center;
-    margin: auto 60% auto auto;
     display: inline-block;
 }
 .underline{
@@ -55,13 +52,22 @@ body{
     background-size: cover;
 }
 #about-background{
+    display: inline-block;
     height: 1000px;
+    width: 100%;
+    background-size: cover;
 }
 #projects-background{
+    display: inline-block;
     height: 1000px;
+    width: 100%;
+    background-size: cover;
 }
 #contactme-background{
+    display: inline-block;
     height: 1000px;
+    width: 100%;
+    background-size: cover;
 }
 #bottom-bar{
     height: 150px;

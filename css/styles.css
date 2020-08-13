@@ -3,6 +3,14 @@ body{
   margin: 0;
   font-family: Georgia, Times, sans-serif;
 }
+p{
+    font-family: Georgia, Times, sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
 /*******************CLASSES *************************/
 .nav-bar-button{
 	padding: 10px 20px;
@@ -25,7 +33,8 @@ body{
 }
 .home-text{
     width: 10%;
-    padding-top: 15%;
+    margin-left: 60%;
+    padding-top: 20%;
     text-align: center;
     display: inline-block;
 }
@@ -42,7 +51,7 @@ body{
     height: auto;
 	width: 100%;
     overflow: hidden;
-    background-color: transparent;
+    background-color: white;
 }
 #home-background{
     display: inline-block;

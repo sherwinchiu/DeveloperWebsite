@@ -38,11 +38,18 @@ h1{
     text-align: center;
     display: inline-block;
 }
+.home-background{
+    display: inline-block;
+    background: url("/pic/background.png");
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+}
 .project-image{
     display: inline-block;
     text-align: center;
-    width: 15%;
-    height:45%;
+    width: 300px;
+    height:300px;
     padding-left: 5%;
     padding-right: 10px;
     background-color: yellow;
@@ -60,13 +67,7 @@ h1{
     overflow: hidden;
     background-color: white;
 }
-#home-background{
-    display: inline-block;
-    background: url("/pic/background.png");
-    width: 100%;
-    height: 1000px;
-    background-size: cover;
-}
+
 #about-picture{
     margin: none;
     padding: none;
@@ -79,14 +80,14 @@ h1{
     margin: none;
     padding: none;
     height: 750px;
-    width: 66%;
+    width: 70%;
     float:right;
     background-color: black;
 }
 #projects-background{
     display: inline-block;
     text-align: center;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-size: cover;
 }
@@ -99,3 +100,4 @@ h1{
 #bottom-bar{
     height: 20%;
 }
+

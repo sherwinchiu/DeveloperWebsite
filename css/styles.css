@@ -1,10 +1,10 @@
 /************************RULES ****************************/
 body{
   margin: 0;
-  font-family: Georgia, Times, sans-serif;
+  font-family: 'Times New Roman', Times, sans-serif;
 }
 p{
-    font-family: Georgia, Times, sans-serif;
+    font-family: 'Times New Roman', Times, sans-serif;
     font-size: 15px;
 }
 h1{
@@ -13,8 +13,8 @@ h1{
 }
 /*******************CLASSES *************************/
 .nav-bar-button{
-	padding: 10px 20px;
-	float: left;
+	padding: 2% 2%;
+	float: right;
 	border: none;
 	display: block;
 	text-decoration: none;
@@ -38,46 +38,64 @@ h1{
     text-align: center;
     display: inline-block;
 }
-.underline{
-    font-style: italic;
+.project-image{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    height:45%;
+    padding-left: 5%;
+    padding-right: 10px;
+    background-color: yellow;
 }
 .signature{
-    float: right;
+    padding: 1% 2%;
+	float: left;
 }
 /*******************ID ******************************/
 #nav-bar{
     position: fixed;
     top: 0;
-    height: auto;
+    height: 10%;
 	width: 100%;
     overflow: hidden;
     background-color: white;
 }
 #home-background{
     display: inline-block;
-    height: 1000px;
-    width: 100%;
     background: url("/pic/background.png");
+    width: 100%;
+    height: 1000px;
     background-size: cover;
 }
-#about-background{
-    display: inline-block;
-    height: 1000px;
+#about-picture{
+    margin: none;
+    padding: none;
+    height: 750px;
     width: 100%;
-    background-size: cover;
+    float: left;
+    background-color: yellow;
+}
+#about-info{
+    margin: none;
+    padding: none;
+    height: 750px;
+    width: 66%;
+    float:right;
+    background-color: black;
 }
 #projects-background{
     display: inline-block;
-    height: 1000px;
+    text-align: center;
+    height: 100%;
     width: 100%;
     background-size: cover;
 }
 #contactme-background{
     display: inline-block;
-    height: 1000px;
+    height: 100%;
     width: 100%;
     background-size: cover;
 }
 #bottom-bar{
-    height: 150px;
+    height: 20%;
 }

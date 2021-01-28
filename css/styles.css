@@ -1,39 +1,50 @@
 /************************RULES ****************************/
 body{
-  margin: 0;
-  font-family: 'Times New Roman', Times, sans-serif;
+    margin: 0;
+    font-family: verdana, sans-serif;
 }
 p{
-    font-family: 'Times New Roman', Times, sans-serif;
     font-size: 15px;
 }
 h1{
     font-size: 50px;
     text-align: center;
 }
+@font-face{
+    font-family: "America";
+    src: url("/America.ttf");
+}
 /*******************CLASSES *************************/
 .nav-bar-button{
-	padding: 2% 2%;
-	float: right;
-	border: none;
+	padding: 1.45% 2%;
+    float: left;
+	/*border: none;*/
 	display: block;
 	text-decoration: none;
 	color: rgb(0, 0, 0);
 	background-color: inherit;
 	cursor: pointer;
     transition-duration: 0.5s;
+    
 } 
 .nav-bar-button:hover{
 	background-color: transparent;
-    color: rgb(101, 81, 71);
+    color: rgb(148, 147, 147);
+    border-style: solid;
+    border-color: rgb(30, 110, 201);
+    padding-bottom: 1.3%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
 }
 .nav-bar-signature{
 	float: right;
 	border: none;
 }
 .home-text{
-    width: 10%;
-    margin-left: 60%;
+    width: 20%;
+    margin-left: 20%;
     padding-top: 20%;
     text-align: center;
     display: inline-block;
@@ -55,17 +66,22 @@ h1{
     background-color: yellow;
 }
 .signature{
-    padding: 1% 2%;
-	float: left;
+    font-family: "America";
+    font-size: 30px;
+    border-top: 0%;
+    padding: 1.25% 2%;
+    margin: 0%;
+	float: right;
 }
 /*******************ID ******************************/
 #nav-bar{
     position: fixed;
     top: 0;
-    height: 10%;
+    height: 7.5%;
 	width: 100%;
     overflow: hidden;
     background-color: white;
+    border-bottom: solid rgb(179, 179, 179) 2px;
 }
 
 #about-picture{
@@ -74,15 +90,15 @@ h1{
     height: 750px;
     width: 100%;
     float: left;
-    background-color: yellow;
+    background-color: rgb(75, 75, 43);
 }
 #about-info{
     margin: none;
     padding: none;
     height: 750px;
-    width: 70%;
+    width: 60%;
     float:right;
-    background-color: black;
+    background-color: rgb(131, 15, 15);
 }
 #projects-background{
     display: inline-block;
